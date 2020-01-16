@@ -1,3 +1,7 @@
+git push https://github.com/seanyboy1/bicode.py.git
+
+
+
 from tkinter import *
 import re
 root = Tk()
@@ -62,10 +66,12 @@ def binaryToNumber(num):
 # JackHawk9000 Logo
 label2 = Label(root, image=logo).pack() 
 
-labl1 = Label(root, text='Torrence is a flaming Douche', font=30).pack(pady=10)
+labl1 = Label(root, text='Manos Arriba', font=30).pack(pady=10)
 # user input field
-text = Entry(root, textvariable=b).pack() 
+text = Entry(root, textvariable=b).pack()
 # submit button
-button1 = Button(root, text='Submit', command=validateInput).pack(pady=10) 
+button1 = Button(root, bg="black",  text='Submit', command=validateInput, fg="black").pack(pady=10)
+
+lab15 = Label(root, textvariable = b, fg="red").pack()
 
 root.mainloop()
