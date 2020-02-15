@@ -1,4 +1,4 @@
-git push https://github.com/seanyboy1/bicode.py.git
+# push https://github.com/seanyboy1/bicode.py.git
 
 
 
